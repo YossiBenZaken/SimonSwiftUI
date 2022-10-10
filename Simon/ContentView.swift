@@ -11,13 +11,15 @@ struct ContentView: View {
     @State private var isWatching = false
     @State private var sequence = [String]()
     @State private var sequenceIndex = 0
-    @State private var colorActive: [Bool] = Array(repeating: false, count: 4)
+    @State private var colorActive: [Bool] = Array(repeating: false, count: 6)
     @State private var showingAlert: Bool = false
     private var slices = [
-        Slice(start: Angle(degrees: 90), end: Angle(degrees: 180)),
-        Slice(start: Angle(degrees: 180), end: Angle(degrees: 270)),
-        Slice(start: Angle(degrees: 270), end: Angle(degrees: 360)),
-        Slice(start: Angle(degrees: 0), end: Angle(degrees: 90)),
+        Slice(start: Angle(degrees: 0), end: Angle(degrees: 60)),
+        Slice(start: Angle(degrees: 60), end: Angle(degrees: 120)),
+        Slice(start: Angle(degrees: 120), end: Angle(degrees: 180)),
+        Slice(start: Angle(degrees: 180), end: Angle(degrees: 240)),
+        Slice(start: Angle(degrees: 240), end: Angle(degrees: 300)),
+        Slice(start: Angle(degrees: 300), end: Angle(degrees: 360)),
     ]
     var body: some View {
         GeometryReader {reader in
@@ -39,7 +41,6 @@ struct ContentView: View {
                         .onTapGesture {
                             colorTapped("red")
                         }
-                    
                     SimonButtonView(slice: slices[1], color: colorActive[1] ? .blue : .blue.opacity(0.5),center: center, radius: radius)
                         .onTapGesture {
                             colorTapped("blue")
@@ -48,7 +49,15 @@ struct ContentView: View {
                         .onTapGesture {
                             colorTapped("green")
                         }
-                    SimonButtonView(slice: slices[3], color: colorActive[3] ? .yellow : .yellow.opacity(0.5),center: center, radius: radius)
+                    SimonButtonView(slice: slices[3], color: colorActive[3] ? .purple : .purple.opacity(0.5),center: center, radius: radius)
+                        .onTapGesture {
+                            colorTapped("purple")
+                        }
+                    SimonButtonView(slice: slices[4], color: colorActive[4] ? .cyan : .cyan.opacity(0.5),center: center, radius: radius)
+                        .onTapGesture {
+                            colorTapped("cyan")
+                        }
+                    SimonButtonView(slice: slices[5], color: colorActive[3] ? .yellow : .yellow.opacity(0.5),center: center, radius: radius)
                         .onTapGesture {
                             colorTapped("yellow")
                         }
@@ -80,8 +89,12 @@ struct ContentView: View {
             currentColorIndex = 1
         case "green":
             currentColorIndex = 2
-        default:
+        case "purple":
             currentColorIndex = 3
+        case "cyan":
+            currentColorIndex = 4
+        default:
+            currentColorIndex = 5
         }
         colorActive[currentColorIndex] = true
         playSound(sound: color, type: "mp3")
@@ -115,8 +128,12 @@ struct ContentView: View {
             currentColorIndex = 1
         case "green":
             currentColorIndex = 2
-        default:
+        case "purple":
             currentColorIndex = 3
+        case "cyan":
+            currentColorIndex = 4
+        default:
+            currentColorIndex = 5
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
@@ -130,7 +147,7 @@ struct ContentView: View {
     }
     
     func addToSequence() {
-        let colors: [String] = ["red","blue","green","yellow"]
+        let colors: [String] = ["red","blue","green","purple","cyan","yellow"]
         sequence.append(colors.randomElement()!)
         
         sequenceIndex = 0
