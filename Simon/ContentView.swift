@@ -57,7 +57,7 @@ struct ContentView: View {
                         .onTapGesture {
                             colorTapped("cyan")
                         }
-                    SimonButtonView(slice: slices[5], color: colorActive[3] ? .yellow : .yellow.opacity(0.5),center: center, radius: radius)
+                    SimonButtonView(slice: slices[5], color: colorActive[5] ? .yellow : .yellow.opacity(0.5),center: center, radius: radius)
                         .onTapGesture {
                             colorTapped("yellow")
                         }

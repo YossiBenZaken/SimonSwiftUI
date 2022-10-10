@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B5D652F28F4C26400400D3F /* purple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D652D28F4C26300400D3F /* purple.mp3 */; };
+		4B5D653028F4C26400400D3F /* cyan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5D652E28F4C26400400D3F /* cyan.mp3 */; };
 		4BBD750728F45058006DB2AB /* SimonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD750628F45058006DB2AB /* SimonApp.swift */; };
 		4BBD750928F45058006DB2AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD750828F45058006DB2AB /* ContentView.swift */; };
 		4BBD750B28F45059006DB2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD750A28F45059006DB2AB /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B5D652D28F4C26300400D3F /* purple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = purple.mp3; sourceTree = "<group>"; };
+		4B5D652E28F4C26400400D3F /* cyan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cyan.mp3; sourceTree = "<group>"; };
 		4BBD750328F45058006DB2AB /* Simon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD750628F45058006DB2AB /* SimonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonApp.swift; sourceTree = "<group>"; };
 		4BBD750828F45058006DB2AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,7 +66,6 @@
 		4BBD74FA28F45058006DB2AB = {
 			isa = PBXGroup;
 			children = (
-				4BBD753828F4A7E2006DB2AB /* Slice.swift */,
 				4BBD750528F45058006DB2AB /* Simon */,
 				4BBD750428F45058006DB2AB /* Products */,
 			);
@@ -79,6 +82,7 @@
 		4BBD750528F45058006DB2AB /* Simon */ = {
 			isa = PBXGroup;
 			children = (
+				4BBD753828F4A7E2006DB2AB /* Slice.swift */,
 				4BBD750628F45058006DB2AB /* SimonApp.swift */,
 				4BBD750828F45058006DB2AB /* ContentView.swift */,
 				4BBD750A28F45059006DB2AB /* Assets.xcassets */,
@@ -89,6 +93,8 @@
 				4BBD752A28F4512C006DB2AB /* SimonButtonView.swift */,
 				4BBD753028F45BA2006DB2AB /* blue.mp3 */,
 				4BBD752C28F45A91006DB2AB /* Utility.swift */,
+				4B5D652E28F4C26400400D3F /* cyan.mp3 */,
+				4B5D652D28F4C26300400D3F /* purple.mp3 */,
 			);
 			path = Simon;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BBD753328F45BA2006DB2AB /* green.mp3 in Resources */,
+				4B5D653028F4C26400400D3F /* cyan.mp3 in Resources */,
+				4B5D652F28F4C26400400D3F /* purple.mp3 in Resources */,
 				4BBD753428F45BA2006DB2AB /* blue.mp3 in Resources */,
 				4BBD753228F45BA2006DB2AB /* red.mp3 in Resources */,
 				4BBD750E28F45059006DB2AB /* Preview Assets.xcassets in Resources */,
