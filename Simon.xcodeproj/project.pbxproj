@@ -11,22 +11,14 @@
 		4BBD750928F45058006DB2AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD750828F45058006DB2AB /* ContentView.swift */; };
 		4BBD750B28F45059006DB2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD750A28F45059006DB2AB /* Assets.xcassets */; };
 		4BBD750E28F45059006DB2AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD750D28F45059006DB2AB /* Preview Assets.xcassets */; };
-		4BBD751428F45059006DB2AB /* Simon Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4BBD751328F45059006DB2AB /* Simon Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4BBD751928F45059006DB2AB /* SimonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD751828F45059006DB2AB /* SimonApp.swift */; };
-		4BBD751B28F45059006DB2AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD751A28F45059006DB2AB /* ContentView.swift */; };
-		4BBD751D28F4505A006DB2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD751C28F4505A006DB2AB /* Assets.xcassets */; };
-		4BBD752028F4505A006DB2AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD751F28F4505A006DB2AB /* Preview Assets.xcassets */; };
+		4BBD752B28F4512C006DB2AB /* SimonButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD752A28F4512C006DB2AB /* SimonButtonView.swift */; };
+		4BBD752D28F45A91006DB2AB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD752C28F45A91006DB2AB /* Utility.swift */; };
+		4BBD753228F45BA2006DB2AB /* red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD752E28F45BA2006DB2AB /* red.mp3 */; };
+		4BBD753328F45BA2006DB2AB /* green.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD752F28F45BA2006DB2AB /* green.mp3 */; };
+		4BBD753428F45BA2006DB2AB /* blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD753028F45BA2006DB2AB /* blue.mp3 */; };
+		4BBD753528F45BA2006DB2AB /* yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD753128F45BA2006DB2AB /* yellow.mp3 */; };
+		4BBD753928F4A7E2006DB2AB /* Slice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD753828F4A7E2006DB2AB /* Slice.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4BBD751528F45059006DB2AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4BBD74FB28F45058006DB2AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4BBD751228F45059006DB2AB;
-			remoteInfo = "Simon Watch App";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4BBD752628F4505A006DB2AB /* Embed Watch Content */ = {
@@ -35,7 +27,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				4BBD751428F45059006DB2AB /* Simon Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,22 +39,17 @@
 		4BBD750828F45058006DB2AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BBD750A28F45059006DB2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BBD750D28F45059006DB2AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4BBD751328F45059006DB2AB /* Simon Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simon Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BBD751828F45059006DB2AB /* SimonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonApp.swift; sourceTree = "<group>"; };
-		4BBD751A28F45059006DB2AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4BBD751C28F4505A006DB2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4BBD751F28F4505A006DB2AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BBD752A28F4512C006DB2AB /* SimonButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonButtonView.swift; sourceTree = "<group>"; };
+		4BBD752C28F45A91006DB2AB /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		4BBD752E28F45BA2006DB2AB /* red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = red.mp3; sourceTree = "<group>"; };
+		4BBD752F28F45BA2006DB2AB /* green.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = green.mp3; sourceTree = "<group>"; };
+		4BBD753028F45BA2006DB2AB /* blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blue.mp3; sourceTree = "<group>"; };
+		4BBD753128F45BA2006DB2AB /* yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yellow.mp3; sourceTree = "<group>"; };
+		4BBD753828F4A7E2006DB2AB /* Slice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4BBD750028F45058006DB2AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BBD751028F45059006DB2AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +62,8 @@
 		4BBD74FA28F45058006DB2AB = {
 			isa = PBXGroup;
 			children = (
+				4BBD753828F4A7E2006DB2AB /* Slice.swift */,
 				4BBD750528F45058006DB2AB /* Simon */,
-				4BBD751728F45059006DB2AB /* Simon Watch App */,
 				4BBD750428F45058006DB2AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				4BBD750328F45058006DB2AB /* Simon.app */,
-				4BBD751328F45059006DB2AB /* Simon Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,7 +82,13 @@
 				4BBD750628F45058006DB2AB /* SimonApp.swift */,
 				4BBD750828F45058006DB2AB /* ContentView.swift */,
 				4BBD750A28F45059006DB2AB /* Assets.xcassets */,
+				4BBD752F28F45BA2006DB2AB /* green.mp3 */,
+				4BBD752E28F45BA2006DB2AB /* red.mp3 */,
+				4BBD753128F45BA2006DB2AB /* yellow.mp3 */,
 				4BBD750C28F45059006DB2AB /* Preview Content */,
+				4BBD752A28F4512C006DB2AB /* SimonButtonView.swift */,
+				4BBD753028F45BA2006DB2AB /* blue.mp3 */,
+				4BBD752C28F45A91006DB2AB /* Utility.swift */,
 			);
 			path = Simon;
 			sourceTree = "<group>";
@@ -106,25 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				4BBD750D28F45059006DB2AB /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4BBD751728F45059006DB2AB /* Simon Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				4BBD751828F45059006DB2AB /* SimonApp.swift */,
-				4BBD751A28F45059006DB2AB /* ContentView.swift */,
-				4BBD751C28F4505A006DB2AB /* Assets.xcassets */,
-				4BBD751E28F4505A006DB2AB /* Preview Content */,
-			);
-			path = "Simon Watch App";
-			sourceTree = "<group>";
-		};
-		4BBD751E28F4505A006DB2AB /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4BBD751F28F4505A006DB2AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -144,28 +116,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				4BBD751628F45059006DB2AB /* PBXTargetDependency */,
 			);
 			name = Simon;
 			productName = Simon;
 			productReference = 4BBD750328F45058006DB2AB /* Simon.app */;
-			productType = "com.apple.product-type.application";
-		};
-		4BBD751228F45059006DB2AB /* Simon Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4BBD752328F4505A006DB2AB /* Build configuration list for PBXNativeTarget "Simon Watch App" */;
-			buildPhases = (
-				4BBD750F28F45059006DB2AB /* Sources */,
-				4BBD751028F45059006DB2AB /* Frameworks */,
-				4BBD751128F45059006DB2AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Simon Watch App";
-			productName = "Simon Watch App";
-			productReference = 4BBD751328F45059006DB2AB /* Simon Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -179,9 +133,6 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					4BBD750228F45058006DB2AB = {
-						CreatedOnToolsVersion = 14.0;
-					};
-					4BBD751228F45059006DB2AB = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -200,7 +151,6 @@
 			projectRoot = "";
 			targets = (
 				4BBD750228F45058006DB2AB /* Simon */,
-				4BBD751228F45059006DB2AB /* Simon Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -210,17 +160,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBD753328F45BA2006DB2AB /* green.mp3 in Resources */,
+				4BBD753428F45BA2006DB2AB /* blue.mp3 in Resources */,
+				4BBD753228F45BA2006DB2AB /* red.mp3 in Resources */,
 				4BBD750E28F45059006DB2AB /* Preview Assets.xcassets in Resources */,
+				4BBD753528F45BA2006DB2AB /* yellow.mp3 in Resources */,
 				4BBD750B28F45059006DB2AB /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BBD751128F45059006DB2AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BBD752028F4505A006DB2AB /* Preview Assets.xcassets in Resources */,
-				4BBD751D28F4505A006DB2AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,29 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBD753928F4A7E2006DB2AB /* Slice.swift in Sources */,
+				4BBD752D28F45A91006DB2AB /* Utility.swift in Sources */,
 				4BBD750928F45058006DB2AB /* ContentView.swift in Sources */,
 				4BBD750728F45058006DB2AB /* SimonApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4BBD750F28F45059006DB2AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BBD751B28F45059006DB2AB /* ContentView.swift in Sources */,
-				4BBD751928F45059006DB2AB /* SimonApp.swift in Sources */,
+				4BBD752B28F4512C006DB2AB /* SimonButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4BBD751628F45059006DB2AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4BBD751228F45059006DB2AB /* Simon Watch App */;
-			targetProxy = 4BBD751528F45059006DB2AB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4BBD752128F4505A006DB2AB /* Debug */ = {
@@ -365,67 +296,6 @@
 			};
 			name = Release;
 		};
-		4BBD752428F4505A006DB2AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Simon Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = C23DJKFSQA;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Simon;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yossibz.Simon;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yossibz.Simon.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		4BBD752528F4505A006DB2AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Simon Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = C23DJKFSQA;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = Simon;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yossibz.Simon;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yossibz.Simon.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
 		4BBD752828F4505A006DB2AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -453,9 +323,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yossibz.Simon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -486,9 +359,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yossibz.Simon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -501,15 +377,6 @@
 			buildConfigurations = (
 				4BBD752128F4505A006DB2AB /* Debug */,
 				4BBD752228F4505A006DB2AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4BBD752328F4505A006DB2AB /* Build configuration list for PBXNativeTarget "Simon Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4BBD752428F4505A006DB2AB /* Debug */,
-				4BBD752528F4505A006DB2AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
